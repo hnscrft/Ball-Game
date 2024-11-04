@@ -6,7 +6,7 @@ public class PlayerMovemet : MonoBehaviour
 {
     [SerializeField] float moveForce = 5f;
     [SerializeField] float jumpForce = 10f;
-
+    bool isGrounded = false;
     private Rigidbody2D rb2;
 
     // Start is called before the first frame update
@@ -20,14 +20,27 @@ public class PlayerMovemet : MonoBehaviour
     {
         rb2.AddForce(new Vector2(moveForce * Time.deltaTime * Input.GetAxisRaw("Horizontal"), 0));
 
-        Jump();
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (isGrounded == true)
+            {
+                Jump();
+            }
+        } 
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        isGrounded = true;
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = false;
     }
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            rb2.AddForce(new Vector2(0, jumpForce));
-        }
+
+        rb2.AddForce(new Vector2(0, jumpForce));
+
     }
 }
