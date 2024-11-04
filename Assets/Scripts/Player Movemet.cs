@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovemet : MonoBehaviour
 {
     [SerializeField] float moveForce = 5f;
+    [SerializeField] float jumpForce = 10f;
 
     private Rigidbody2D rb2;
 
@@ -18,5 +19,15 @@ public class PlayerMovemet : MonoBehaviour
     void Update()
     {
         rb2.AddForce(new Vector2(moveForce * Time.deltaTime * Input.GetAxisRaw("Horizontal"), 0));
+
+        Jump();
+    }
+
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            rb2.AddForce(new Vector2(0, jumpForce));
+        }
     }
 }
