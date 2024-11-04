@@ -7,8 +7,8 @@ public class FollowPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerPosition = GameObject.Find("Player").transform.position; //sets playerPositions value to the transform.position of the player
-        objectPosition = transform.position; //sets objectPositions value to the transform.position of the object
+        playerPosition = GameObject.Find("Player").transform.position; //sets playerPosition's value to the transform.position of the player
+        objectPosition = transform.position; //sets objectPosition's value to the transform.position of the object
     }
 
     // Update is called once per frame

@@ -20,12 +20,9 @@ public class PlayerMovemet : MonoBehaviour
     {
         rb2.AddForce(new Vector2(moveForce * Time.deltaTime * Input.GetAxisRaw("Horizontal"), 0));
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
-            if (isGrounded == true)
-            {
-                Jump();
-            }
+            Jump();
         } 
     }
     private void OnCollisionEnter2D(Collision2D collision)
