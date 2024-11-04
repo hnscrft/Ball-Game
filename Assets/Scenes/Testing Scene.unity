@@ -416,7 +416,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.02, y: -0.18, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.21170118, y: 0.21170118, z: 0.21170118}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
+  m_ShowCameraFrustum: 0
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
   m_UpdateMethod: 2
@@ -770,11 +770,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 46876058333613222, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 2.3693671
       objectReference: {fileID: 0}
     - target: {fileID: 46876058333613222, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 2.3693671
+      objectReference: {fileID: 0}
+    - target: {fileID: 46876058333613222, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.3693671
       objectReference: {fileID: 0}
     - target: {fileID: 46876058333613222, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -823,26 +827,6 @@ PrefabInstance:
     - target: {fileID: 4375046725178599270, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5984490161871817096, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: acbcbedef17294c41b02e79b9d40b859, type: 3}
-    - target: {fileID: 5984490161871817096, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5984490161871817096, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5984490161871817096, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5984490161871817096, guid: 361a5ebcde2c17a4aaaee462b71ed176, type: 3}
-      propertyPath: m_DrawMode
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
