@@ -18,11 +18,14 @@ public class PlayerMovemet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb2.AddForce(new Vector2(moveForce * Time.deltaTime * Input.GetAxisRaw("Horizontal"), 0));
+        if(isGrounded)
+        {
+            rb2.AddForce(new Vector2(moveForce * Time.deltaTime * Input.GetAxisRaw("Horizontal"), 0));
+        }
 
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
-            Jump();
+            Jump(jumpForce);
         } 
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -34,10 +37,10 @@ public class PlayerMovemet : MonoBehaviour
         isGrounded = false;
     }
 
-    void Jump()
+    void Jump(float JumpAmount)
     {
 
-        rb2.AddForce(new Vector2(0, jumpForce));
+        rb2.AddForce(new Vector2(0, JumpAmount));
 
     }
 }

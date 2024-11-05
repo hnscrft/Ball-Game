@@ -13,6 +13,7 @@ public class Dash : MonoBehaviour
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
     private bool isDashing;
+    bool isGrounded = false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,34 @@ public class Dash : MonoBehaviour
         yield return new WaitForSeconds(dashingTime);
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
-        canDash = true;
+        if (isGrounded)
+        {
+            canDash = true;
+        }
+        else
+        {
+            while (isGrounded == false)
+            {
+                yield return null;
+                if (isGrounded == true)
+                {
+                    canDash = true;
+                }
+
+
+            }
+        }
+
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        isGrounded = true;
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = false;
     }
 
     // Update is called once per frame
@@ -59,5 +87,6 @@ public class Dash : MonoBehaviour
             StartCoroutine(Dash2(dir));
 
         }
+
     }
 }

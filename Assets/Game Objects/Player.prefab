@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6948720186723461030}
   - component: {fileID: 2268513452623906393}
   - component: {fileID: 6462235326918014350}
+  - component: {fileID: 5097371311734998304}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -119,9 +120,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0003118515, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.45777655
 --- !u!50 &2268513452623906393
 Rigidbody2D:
   serializedVersion: 4
@@ -135,7 +136,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 1
+  m_LinearDrag: 0.5
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -163,3 +164,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveForce: 200
   jumpForce: 300
+--- !u!114 &5097371311734998304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4375046725178599270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73f917ff165cd34f9063c858ccbfbb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashKey: 304
+  dashspeed: 7.5
