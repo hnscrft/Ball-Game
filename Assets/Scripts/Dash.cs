@@ -6,6 +6,7 @@ public class Dash : MonoBehaviour
 {
 
     [SerializeField] KeyCode dashKey = KeyCode.LeftShift;
+    [SerializeField] private TrailRenderer tr;
 
     private Rigidbody2D rb;
     private bool canDash = true;
@@ -26,8 +27,10 @@ public class Dash : MonoBehaviour
         canDash = false;
         isDashing = true;
         rb.velocity = direction * dashspeed;
+        tr.emitting = true;
         yield return null;
         yield return new WaitForSeconds(dashingTime);
+        tr.emitting = false;
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         if (isGrounded)
