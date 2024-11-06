@@ -1,82 +1,70 @@
 fileFormatVersion: 2
-guid: 1ea1499e7639c6a498d4f1c53fff4c98
+guid: cc188e4ad038de04ba3132abc9ddafc1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2093744287183136781
-    second: "Namnl\xF6st-1_0"
+      213: -811412059133040955
+    second: tileset_lvl3_2_0
   - first:
-      213: 7147770121645279753
-    second: "Namnl\xF6st-1_1"
+      213: -4155912393338967315
+    second: tileset_lvl3_2_1
   - first:
-      213: 6200615428449923715
-    second: "Namnl\xF6st-1_2"
+      213: -6441828355510254034
+    second: tileset_lvl3_2_2
   - first:
-      213: 3973052733738112257
-    second: "Namnl\xF6st-1_3"
+      213: -7200781530372741752
+    second: tileset_lvl3_2_4
   - first:
-      213: -2176277510741648756
-    second: "Namnl\xF6st-1_4"
+      213: -5762916330003537407
+    second: tileset_lvl3_2_5
   - first:
-      213: -4402580475371695464
-    second: "Namnl\xF6st-1_5"
+      213: 2710299576149950530
+    second: tileset_lvl3_2_6
   - first:
-      213: 7519140839647473459
-    second: "Namnl\xF6st-1_6"
+      213: 7897724971394584081
+    second: tileset_lvl3_2_7
   - first:
-      213: 5255070225613182046
-    second: "Namnl\xF6st-1_7"
+      213: 2816659460424813174
+    second: tileset_lvl3_2_8
   - first:
-      213: -6944619302836547459
-    second: "Namnl\xF6st-1_8"
+      213: 4418303330117434938
+    second: tileset_lvl3_2_9
   - first:
-      213: 2931112846289054013
-    second: "Namnl\xF6st-1_9"
+      213: -1349674975309539148
+    second: tileset_lvl3_2_10
   - first:
-      213: 617419157022198895
-    second: "Namnl\xF6st-1_10"
+      213: -8077774725265567066
+    second: tileset_lvl3_2_11
   - first:
-      213: 967659485055297296
-    second: "Namnl\xF6st-1_11"
+      213: -7686765435886421963
+    second: tileset_lvl3_2_12
   - first:
-      213: 318010099847128276
-    second: "Namnl\xF6st-1_12"
+      213: -7279318136508636623
+    second: tileset_lvl3_2_13
   - first:
-      213: -1448826092818354631
-    second: "Namnl\xF6st-1_13"
+      213: 478166371455076733
+    second: tileset_lvl3_2_14
   - first:
-      213: -8420768816550555814
-    second: "Namnl\xF6st-1_14"
+      213: 6987476874817664591
+    second: tileset_lvl3_2_26
   - first:
-      213: 4122721703992267884
-    second: "Namnl\xF6st-1_15"
+      213: -6903757095929066225
+    second: tileset_lvl3_2_28
   - first:
-      213: -8619508395216569835
-    second: "Namnl\xF6st-1_16"
+      213: 1027912869836843560
+    second: tileset_lvl3_2_30
   - first:
-      213: 6964224419038294185
-    second: "Namnl\xF6st-1_17"
+      213: 4834037420865601856
+    second: tileset_lvl3_2_32
   - first:
-      213: -6100628935732970402
-    second: "Namnl\xF6st-1_18"
+      213: 7312170812834886649
+    second: tileset_lvl3_2_34
   - first:
-      213: -3497774433018295490
-    second: "Namnl\xF6st-1_19"
+      213: -2518353200848295564
+    second: tileset_lvl3_2_40
   - first:
-      213: -8337898763701069060
-    second: "Namnl\xF6st-1_20"
-  - first:
-      213: -9032114053888393179
-    second: "Namnl\xF6st-1_21"
-  - first:
-      213: 6140687394625058914
-    second: "Namnl\xF6st-1_22"
-  - first:
-      213: -5179085715587298615
-    second: "Namnl\xF6st-1_23"
-  - first:
-      213: 5154445277571486889
-    second: "Namnl\xF6st-1_24"
+      213: -7311103740607385386
+    second: tileset_lvl3_2_42
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -166,11 +154,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_0"
+      name: tileset_lvl3_2_0
       rect:
         serializedVersion: 2
         x: 32
-        y: 288
+        y: 436
         width: 32
         height: 32
       alignment: 0
@@ -180,18 +168,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f712f7f9a681f2e0800000000000000
-      internalID: -2093744287183136781
+      spriteID: 5c628e008094db4f0800000000000000
+      internalID: -811412059133040955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_1"
+      name: tileset_lvl3_2_1
       rect:
         serializedVersion: 2
         x: 96
-        y: 288
+        y: 436
         width: 32
         height: 32
       alignment: 0
@@ -201,18 +189,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a41dc1e0bf13360800000000000000
-      internalID: 7147770121645279753
+      spriteID: dea236d72bb3356c0800000000000000
+      internalID: -4155912393338967315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_2"
+      name: tileset_lvl3_2_2
       rect:
         serializedVersion: 2
         x: 160
-        y: 288
+        y: 436
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26c5cdad370a96a0800000000000000
+      internalID: -6441828355510254034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 436
         width: 32
         height: 32
       alignment: 0
@@ -225,18 +234,18 @@ TextureImporter:
         - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: 382709141e20d0650800000000000000
-      internalID: 6200615428449923715
+      spriteID: 88560f8795fa11c90800000000000000
+      internalID: -7200781530372741752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_3"
+      name: tileset_lvl3_2_5
       rect:
         serializedVersion: 2
-        x: 224
-        y: 288
+        x: 288
+        y: 436
         width: 32
         height: 32
       alignment: 0
@@ -249,291 +258,18 @@ TextureImporter:
         - {x: 16, y: 16}
       tessellationDetail: 0
       bones: []
-      spriteID: 105da54496e132730800000000000000
-      internalID: 3973052733738112257
+      spriteID: 10267df81220600b0800000000000000
+      internalID: -5762916330003537407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_4"
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8a9297622f4cc1e0800000000000000
-      internalID: -2176277510741648756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_5"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 892566e2264e6e2c0800000000000000
-      internalID: -4402580475371695464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_6"
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33fe15b61ca595860800000000000000
-      internalID: 7519140839647473459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_7"
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e54d7631782cde840800000000000000
-      internalID: 5255070225613182046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_8"
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d705b1ac981cf9f90800000000000000
-      internalID: -6944619302836547459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_9"
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d39a4af9a976da820800000000000000
-      internalID: 2931112846289054013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_10"
+      name: tileset_lvl3_2_6
       rect:
         serializedVersion: 2
         x: 352
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6c44dbb373819800800000000000000
-      internalID: 617419157022198895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_11"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 017224ebc21dd6d00800000000000000
-      internalID: 967659485055297296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_12"
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d4ef5c308cc96400800000000000000
-      internalID: 318010099847128276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_13"
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93eae34485cb4ebe0800000000000000
-      internalID: -1448826092818354631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_14"
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5f41d1606b632b80800000000000000
-      internalID: -8420768816550555814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_15"
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c649042fb89d63930800000000000000
-      internalID: 4122721703992267884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_16"
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51a7e9c58ca516880800000000000000
-      internalID: -8619508395216569835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_18"
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
+        y: 436
         width: 32
         height: 32
       alignment: 0
@@ -541,107 +277,24 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -16, y: -16}
+      - - {x: -16, y: 0}
+        - {x: -16, y: -16}
         - {x: 16, y: -16}
-        - {x: 16, y: 1}
+        - {x: 16, y: 16}
       tessellationDetail: 0
       bones: []
-      spriteID: e5cba233e46365ba0800000000000000
-      internalID: -6100628935732970402
+      spriteID: 2404f4fca1bec9520800000000000000
+      internalID: 2710299576149950530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_19"
+      name: tileset_lvl3_2_7
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3b40876fa8657fc0800000000000000
-      internalID: -3497774433018295490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_20"
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfadd602045d94c80800000000000000
-      internalID: -8337898763701069060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_21"
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5204b274f1c77a280800000000000000
-      internalID: -9032114053888393179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_22"
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 268785196aa183550800000000000000
-      internalID: 6140687394625058914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Namnl\xF6st-1_23"
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 100
+        x: 416
+        y: 436
         width: 32
         height: 32
       alignment: 0
@@ -652,21 +305,156 @@ TextureImporter:
       - - {x: -16, y: 16}
         - {x: -16, y: -16}
         - {x: 16, y: -16}
-        - {x: 16, y: 16}
+        - {x: 16, y: 0}
       tessellationDetail: 0
       bones: []
-      spriteID: 9ca8e1d4bf03028b0800000000000000
-      internalID: -5179085715587298615
+      spriteID: 11ec4bd740b5a9d60800000000000000
+      internalID: 7897724971394584081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Namnl\xF6st-1_24"
+      name: tileset_lvl3_2_8
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a4ddf1bd8c61720800000000000000
+      internalID: 2816659460424813174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e33953877f05d30800000000000000
+      internalID: 4418303330117434938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d076c2cdf44de0800000000000000
+      internalID: -1349674975309539148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2daec6faaf5ef80800000000000000
+      internalID: -8077774725265567066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 372
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5383d32ff8f135590800000000000000
+      internalID: -7686765435886421963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132285ae8baaafa90800000000000000
+      internalID: -7279318136508636623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 369
         width: 32
         height: 32
       alignment: 0
@@ -679,8 +467,155 @@ TextureImporter:
         - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: 9a496d7aba4488740800000000000000
-      internalID: 5154445277571486889
+      spriteID: d790e1a08c9c2a600800000000000000
+      internalID: 478166371455076733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4673c7423188f060800000000000000
+      internalID: 6987476874817664591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_28
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dc099bf7de030a0800000000000000
+      internalID: -6903757095929066225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a6daa1f41e34e00800000000000000
+      internalID: 1027912869836843560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_32
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041c3a52c63f51340800000000000000
+      internalID: 4834037420865601856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_34
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3b00cdc9c0a7560800000000000000
+      internalID: 7312170812834886649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_40
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 245
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479287c4b130d0dd0800000000000000
+      internalID: -2518353200848295564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_lvl3_2_42
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 245
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0311142edb98a90800000000000000
+      internalID: -7311103740607385386
       vertices: []
       indices: 
       edges: []
