@@ -22,10 +22,6 @@ public class AngularMovementTest : MonoBehaviour
         {
             rb2.AddTorque(speed * Time.deltaTime * Input.GetAxisRaw("Horizontal") * -1);
         }
-        else
-        {
-            rb2.AddForce(new Vector2((speed * Time.deltaTime * Input.GetAxisRaw("Horizontal")) / 2, 0));
-        }
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
